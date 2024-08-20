@@ -103,7 +103,7 @@ const PortSettingsIconContainer = styled.div`
 function AndroidDeviceHelp() {
   const [androidDevices, setAndroidDevices] = React.useState([])
   const [portsVisible, setPortsVisible] = React.useState(false)
-  const [reactotronPort, setReactotronPort] = React.useState("9090")
+  const [reactotronPort, setReactotronPort] = React.useState("9092")
   const [metroPort, setMetroPort] = React.useState("8081")
 
   // When the page loads, get the list of devices from ADB to help users debug android issues.

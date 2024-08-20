@@ -223,7 +223,7 @@ export class ReactotronImpl implements ReactotronCore {
       {
         createSocket: null,
         host: "localhost",
-        port: 9090,
+        port: 909,
         name: "reactotron-core-client",
         secure: false,
         plugins: corePlugins,

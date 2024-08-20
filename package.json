@@ -7,6 +7,7 @@
       "lib/*"
     ]
   },
+  "version": "5.1.7-lem",
   "author": {
     "name": "Infinite Red",
     "email": "hello@infinite.red",
@@ -32,6 +33,7 @@
     "@types/eslint": "^8.44.4",
     "@typescript-eslint/eslint-plugin": "^6.7.5",
     "@typescript-eslint/parser": "^6.7.5",
+    "electron-builder": "^24.13.3",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-standard": "^17.1.0",

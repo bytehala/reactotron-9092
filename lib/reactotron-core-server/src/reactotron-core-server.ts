@@ -23,7 +23,7 @@ const mitt: Mitt = require("mitt")
  * The default server options.
  */
 const DEFAULTS: ServerOptions = {
-  port: 9090,
+  port: 9092,
 }
 
 function createGuid() {

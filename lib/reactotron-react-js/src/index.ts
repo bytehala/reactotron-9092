@@ -28,7 +28,7 @@ function getNavigatorProperty(name) {
 const DEFAULTS = {
   createSocket: (path) => new WebSocket(path), // eslint-disable-line
   host: "localhost",
-  port: 9090,
+  port: 9092,
   name: "React JS App",
   client: {},
   getClientId: () => {

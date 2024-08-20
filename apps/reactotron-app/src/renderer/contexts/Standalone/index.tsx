@@ -41,7 +41,7 @@ const Provider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   } = useStandalone()
 
   useEffect(() => {
-    reactotronServer.current = createServer({ port: config.get("serverPort") as number })
+    reactotronServer.current = createServer({ port: 9092 })
 
     reactotronServer.current.on("start", serverStarted)
     reactotronServer.current.on("stop", serverStopped)
