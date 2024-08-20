@@ -1,6 +1,18 @@
 # ![Reactotron Logo](./docs/plugins/images/readme/Reactotron-128.png)
 
-[Join our Community Slack](http://community.infinite.red/)
+:warning: NOT THE OFFICIAL ONE. This is only a temporary repo until I can make a PR that fixes the configuration bug that prevents changing the port.
+
+## Quick Setup
+
+- Run `yarn install` in the base project directory
+- `cd apps/reactotron-app`
+- `BUILD_TARGET=macos yarn build:release`
+- It will put the binary in `reactotron-app/release/mac-arm64`, show in Finder and run the Reactotron binary
+
+Optional
+- Open Reactotron Settings and change the port to 9092
+<img width="317" alt="Screenshot 2024-08-20 at 12 46 45 PM" src="https://github.com/user-attachments/assets/5a542aee-ee4e-45ce-b0a7-cd157d2a88eb">
+
 
 ## Introduction
 
